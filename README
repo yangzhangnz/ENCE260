@@ -3,22 +3,22 @@
 # Fun Kit Rock-Paper-Scissors Game
 
 ## Project Description
-This project is a Rock-Paper-Scissors game implemented on the Fun Kit hardware platform. It allows two players to duel by choosing rock, paper, or scissors using the top, left, and right buttons of two separate Fun Kits. At the end of each round, the results are displayed on the LED screen, showing the winner and the loser.
+This project is a Rock-Paper-Scissors game implemented on the Fun Kit hardware platform. It allows two players to duel by selecting rock, paper, or scissors using the top, left, and right buttons on two separate Fun Kits. The winner and loser of each round are displayed on the LED screen at the end of the game.
 
 ## Technologies Used
 - **Programming Language:** C
 - **Platform:** Embedded system (Fun Kit)
 
 ## Features
-- Two-player gameplay using separate Fun Kit devices.
-- Input handling through physical buttons for selecting rock, paper, or scissors.
-24- Results display on the Fun Kit's LED screen, indicating the winner of each round.
+- **Two-player gameplay:** Utilizes separate Fun Kit devices for each player.
+- **Input handling:** Players use physical buttons to select rock, paper, or scissors.
+- **Results display:** The winner of each round is shown on the Fun Kit's LED screen.
 
 ## Installation Instructions
 To install and run the game on your Fun Kit devices, follow these steps:
-1. Ensure you have the Fun Kit development environment set up.
+1. Ensure the Fun Kit development environment is set up on your system.
 2. Clone the repository to your local machine:
-   ```bash
+   ```
    git clone https://github.com/yangzhangnz/ENCE260.git
    git clone https://eng-git.canterbury.ac.nz/ence260-2023/group_510.git
    ```
@@ -28,19 +28,19 @@ To install and run the game on your Fun Kit devices, follow these steps:
 ## Usage
 1. Start the game by powering on both Fun Kit devices.
 2. Each player selects rock, paper, or scissors using the top, left, or right buttons on their respective devices.
-3. After selections are made, the game evaluates the choices and displays the results on the LED screen.
+3. The game evaluates the choices and displays the results on the LED screen.
 4. Repeat the process for multiple rounds.
 
 ## Configuration
-No additional configuration is required for this game.
+No additional configuration is required to play the game.
 
 ## Contributing
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your enhancements.
+We welcome contributions to improve the game. If you have enhancements or bug fixes, please fork the repository and submit a pull request.
 
 ## License
-This project is distributed under the [MIT License](LICENSE.md).
+This project is released under the [MIT License](LICENSE.md).
 
 ## Credits and Acknowledgments
-Thank you to everyone who has contributed to the development of this project, including those who assisted in debugging and testing the implementation on the hardware.
+Special thanks to all contributors who helped with the development of this project, including those who assisted in debugging and testing the implementation on the hardware.
 
 ---
