@@ -2,45 +2,64 @@
 
 # Fun Kit Rock-Paper-Scissors Game
 
-## Project Description
-This project is a Rock-Paper-Scissors game implemented on the Fun Kit hardware platform. It allows two players to duel by selecting rock, paper, or scissors using the top, left, and right buttons on two separate Fun Kits. The winner and loser of each round are displayed on the LED screen at the end of the game.
+## Description
+This project is a Rock-Paper-Scissors game designed for the Fun Kit hardware platform. It facilitates a two-player game where participants use the physical buttons on their respective devices to select rock, paper, or scissors. The game results, indicating the winner and loser of each round, are displayed on the LED screen of the Fun Kit devices.
 
-## Technologies Used
-- **Programming Language:** C
-- **Platform:** Embedded system (Fun Kit)
+## Badges
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Language](https://img.shields.io/badge/language-C-blue)
+![Platform](https://img.shields.io/badge/platform-Embedded%20System-lightgrey)
 
-## Features
-- **Two-player gameplay:** Utilizes separate Fun Kit devices for each player.
-- **Input handling:** Players use physical buttons to select rock, paper, or scissors.
-- **Results display:** The winner of each round is shown on the Fun Kit's LED screen.
+## Visuals
+(Consider adding screenshots or a video of the game being played on the Fun Kit devices. If the game has a graphical interface displayed on the LED screen, showing it in action would be beneficial.)
 
-## Installation Instructions
-To install and run the game on your Fun Kit devices, follow these steps:
-1. Ensure the Fun Kit development environment is set up on your system.
-2. Clone the repository to your local machine:
-   ```
+## Installation
+### Prerequisites
+- Ensure you have the necessary hardware (Fun Kit devices).
+- Set up the Fun Kit development environment on your system.
+
+### Steps
+1. Clone the repository:
+   ```bash
    git clone https://github.com/yangzhangnz/ENCE260.git
-   git clone https://eng-git.canterbury.ac.nz/ence260-2023/group_510.git
    ```
-3. Compile the project using the appropriate commands for the Fun Kit platform.
-4. Upload the compiled program to each Fun Kit device.
+2. Navigate to the project directory:
+   ```bash
+   cd ENCE260
+   ```
+3. Compile the project using the provided Makefile or similar build script:
+   ```bash
+   make all
+   ```
+4. Upload the compiled program to each Fun Kit device using the appropriate software.
 
 ## Usage
-1. Start the game by powering on both Fun Kit devices.
-2. Each player selects rock, paper, or scissors using the top, left, or right buttons on their respective devices.
-3. The game evaluates the choices and displays the results on the LED screen.
-4. Repeat the process for multiple rounds.
+1. Power on both Fun Kit devices.
+2. Each player uses the top, left, or right buttons on their device to select rock, paper, or scissors.
+3. View the results on the LED screen and start a new round by selecting again.
 
-## Configuration
-No additional configuration is required to play the game.
+## Support
+For support, please open an issue in the repository or contact the project maintainers at [yangzhangnz92@gmail.com](mailto:yangzhangnz92@gmail.com).
+
+## Roadmap
+- Add additional game modes such as best of three or tournament style.
+- Implement a scoring system to track wins over multiple rounds.
 
 ## Contributing
-We welcome contributions to improve the game. If you have enhancements or bug fixes, please fork the repository and submit a pull request.
+We welcome contributions from the community. Here are some ways you can contribute:
+1. Fork the project.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit (`git commit -m 'Add some feature'`).
+4. Push to your branch (`git push origin feature/YourFeature`).
+5. Create a new Pull Request.
+
+## Authors and Acknowledgment
+Special thanks to everyone who has contributed to this project, especially those involved in initial testing and debugging. Further acknowledgment goes to the instructors and facilitators of ENCE260 for their guidance.
 
 ## License
-This project is released under the [MIT License](LICENSE.md).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Credits and Acknowledgments
-Special thanks to all contributors who helped with the development of this project, including those who assisted in debugging and testing the implementation on the hardware.
+## Project Status
+The project is currently active and being developed for additional features as part of the ENCE260 curriculum. Further contributions and suggestions are welcome.
 
 ---
