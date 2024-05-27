@@ -23,6 +23,7 @@ This project is a Rock-Paper-Scissors game designed for the Fun Kit hardware pla
 1. Clone the repository:
    ```bash
    git clone https://github.com/yangzhangnz/ENCE260.git
+   git clone https://github.com/yangzhangnz/ENCE260-RockPaperScissorsGame.git
    ```
 2. Navigate to the project directory:
    ```bash
