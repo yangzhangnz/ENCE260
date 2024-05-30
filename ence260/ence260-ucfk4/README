@@ -19,7 +19,6 @@ To install and run the game on your Fun Kit devices, follow these steps:
 1. Ensure you have the Fun Kit development environment set up.
 2. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yangzhangnz/ENCE260.git
    git clone https://eng-git.canterbury.ac.nz/ence260-2023/group_510.git
    ```
 3. Compile the project using the appropriate commands for the Fun Kit platform.
