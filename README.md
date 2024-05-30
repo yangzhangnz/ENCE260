@@ -56,7 +56,7 @@ We welcome contributions from the community. Here are some ways you can contribu
 5. Create a new Pull Request.
 
 ## Authors and Acknowledgment
-Thank you to everyone who has contributed to this project, especially those involved in initial testing and debugging.
+Yang ZHANG
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
